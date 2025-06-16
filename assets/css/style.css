@@ -7,52 +7,61 @@ body {
 }
 
 .container {
-  max-width: 900px;
-  margin: auto;
+  max-width: 960px;
+  margin: 3rem auto;
   padding: 2rem;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
-  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.15);
 }
 
-header, section, footer {
+header {
+  text-align: center;
   margin-bottom: 2rem;
 }
 
 h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.3rem;
+  font-size: 2.7rem;
   color: #00ffff;
 }
 
+.title {
+  font-size: 1.3rem;
+  color: #b0e0e6;
+}
+
+.contact {
+  font-size: 0.95rem;
+  color: #ddd;
+}
+
 h2 {
+  font-size: 1.5rem;
+  color: #00ffff;
   border-bottom: 2px solid #00ffff;
-  padding-bottom: 0.5rem;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
   margin-bottom: 1rem;
 }
 
+h3 {
+  color: #87f1ff;
+  margin-bottom: 0.2rem;
+}
+
 ul {
-  list-style: square inside;
+  list-style: square;
+  padding-left: 1.5rem;
   line-height: 1.6;
 }
 
 .job {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 footer {
   text-align: center;
-  font-size: 0.9rem;
-  color: #ccc;
-}
-
-/* Mobile Friendly */
-@media (max-width: 600px) {
-  .container {
-    padding: 1rem;
-  }
-
-  h1 {
-    font-size: 1.8rem;
-  }
+  font-size: 0.85rem;
+  color: #aaa;
+  margin-top: 3rem;
 }
