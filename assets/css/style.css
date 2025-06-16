@@ -1,0 +1,93 @@
+:root {
+  --primary: #2a9d8f;
+  --secondary: #264653;
+  --accent: #e9c46a;
+  --dark: #1d1e20;
+  --light: #f8f9fa;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background: #f5f5f7;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+header {
+  background: var(--secondary);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.3rem;
+  color: var(--accent);
+  margin-bottom: 1.5rem;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #eee;
+}
+
+h2 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+h3 {
+  margin: 1.5rem 0 0.5rem;
+  color: var(--secondary);
+}
+
+.job-meta {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+ul {
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.skill-category {
+  margin-bottom: 1.5rem;
+}
