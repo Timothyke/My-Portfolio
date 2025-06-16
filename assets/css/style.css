@@ -45,3 +45,14 @@ footer {
   font-size: 0.9rem;
   color: #ccc;
 }
+
+/* Mobile Friendly */
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
